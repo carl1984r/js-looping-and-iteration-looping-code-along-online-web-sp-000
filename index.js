@@ -10,7 +10,7 @@ function writeCards(cards, surprise) {
 }
 
 function countDown(num) {
-  for (let i = num; i > 0; i--) {
+  for (let i = num; i > -1; i--) {
     console.log(num);
   }
 
