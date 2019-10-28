@@ -8,3 +8,11 @@ function writeCards(cards, surprise) {
 
   return arr;
 }
+
+function countDown(num) {
+  for (let i = num; i > 0; i--) {
+    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+  }
+
+  return num;
+}
