@@ -11,7 +11,7 @@ function writeCards(cards, surprise) {
 
 function countDown(num) {
   for (let i = num; i > 0; i--) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+    console.log(num);
   }
 
   return num;
